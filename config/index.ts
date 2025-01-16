@@ -3,15 +3,15 @@ export const APP_ID = `${process.env.NEXT_PUBLIC_APP_ID}`
 export const API_KEY = `${process.env.NEXT_PUBLIC_APP_KEY}`
 export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
 export const APP_INFO: AppInfo = {
-  title: 'Chat APP',
-  description: '',
-  copyright: '',
-  privacy_policy: '',
-  default_language: 'en',
+  title: '经济分析Chat APP',
+  description: '经济分析Chat APP',
+  copyright: '元盒数科',
+  privacy_policy: '隐私政策',
+  default_language: 'zh-Hans',
 }
 
-export const isShowPrompt = false
-export const promptTemplate = 'I want you to act as a javascript console.'
+export const isShowPrompt = true
+export const promptTemplate = '欢迎使用您的个性化美股分析助手，在这里我们会深入地股票分析，为您提供全面的洞察。为了开始我们的金融之旅.'
 
 export const API_PREFIX = '/api'
 
