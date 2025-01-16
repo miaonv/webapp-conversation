@@ -332,18 +332,22 @@ const Welcome: FC<IWelcomeProps> = ({
 
             {siteInfo.privacy_policy
               ? <div>{t('app.chat.privacyPolicyLeft')}
+                {/* 注释掉隐私政策链接
                 <a
                   className='text-gray-500'
                   href={siteInfo.privacy_policy}
                   target='_blank'>{t('app.chat.privacyPolicyMiddle')}</a>
+                */}
                 {t('app.chat.privacyPolicyRight')}
               </div>
               : <div>
               </div>}
+            {/* 注释掉Powered by链接
             <a className='flex items-center pr-3 space-x-3' href="javascript:;" target="_blank">
               <span className='uppercase'>{t('app.chat.powerBy')}</span>
               <FootLogo />
             </a>
+            */}
           </div>
         )}
       </div>
