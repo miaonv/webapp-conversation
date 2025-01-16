@@ -10,7 +10,7 @@ export const APP_INFO: AppInfo = {
   default_language: 'zh-Hans',
 }
 
-export const isShowPrompt = false
+export const isShowPrompt = true
 export const promptTemplate = '欢迎入三星堆光影展，“星语使者”相伴，探古蜀遗迹文物秘密，赏文化魅力之旅。'
 
 export const API_PREFIX = '/api'
