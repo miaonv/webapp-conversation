@@ -4,7 +4,7 @@ export const API_KEY = `${process.env.NEXT_PUBLIC_APP_KEY}`
 export const API_URL = `${process.env.NEXT_PUBLIC_API_URL}`
 export const APP_INFO: AppInfo = {
   title: '遇见古蜀·三星堆沉浸式光影艺术展',
-  description: 欢迎入三星堆光影展，“星语使者”相伴，探古蜀遗迹文物秘密，赏文化魅力之旅。',
+  description: '欢迎入三星堆光影展，“星语使者”相伴，探古蜀遗迹文物秘密，赏文化魅力之旅。',
   copyright: '元盒数科',
   privacy_policy: '隐私政策',
   default_language: 'zh-Hans',
